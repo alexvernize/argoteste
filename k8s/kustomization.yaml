@@ -12,4 +12,4 @@ images:
   newTag: v2
 - name: alexvernize/myhello:latest
   newName: alexvernize/myhello
-  newTag: 35d8dbc69bbfd03b763b8b18030cb4717cb8e0a9
+  newTag: 5f861ba3f5b9bdadf6d04c178456f9db2d53b5c7
