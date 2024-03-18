@@ -1,12 +1,15 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 namespace: default
 
 images:
-  - name: alexvernize/myhello
-    newTag: v2
-    newName: alexvernize/myhello
+- name: alexvernize/myhello
+  newName: alexvernize/myhello
+  newTag: v2
+- name: alexvernize/myhello:latest
+  newName: alexvernize/myhello
+  newTag: 35d8dbc69bbfd03b763b8b18030cb4717cb8e0a9
