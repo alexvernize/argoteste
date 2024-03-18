@@ -10,3 +10,6 @@ images:
 - name: alexvernize/myhello
   newName: alexvernize/myhello
   newTag: v2
+- name: alexvernize/myhello:latest
+  newName: alexvernize/myhello
+  newTag: b493b9603c7d947c03d6a313e2be1941ddcac545
