@@ -9,4 +9,4 @@ namespace: default
 images:
 - name: alexvernize/myhello:latest
   newName: alexvernize/myhello
-  newTag: 
+  newTag: 94887161f185bf054961b7187dff327248dc2171
